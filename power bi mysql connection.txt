@@ -1,0 +1,29 @@
+how to enable mysql in powerbi?
+
+	we can connect mysql to powerbi viceversa.
+
+
+
+	download -->mysql-connector-net.9.1.0.msi
+
+	and install
+
+	
+	restart system.
+
+	getdata --> mysql database --> 
+	server--> localhost
+	database--> database name --> ok
+
+	check in datapanel.
+
+====================================================
+DAX: data analytics expressoin
+
+	
+definition: formula based execution and create separate field (Column) in data panel.
+
+tools --> new measure
+
+	fieldname = calculate(.......)
+===================

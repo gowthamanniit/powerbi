@@ -1,0 +1,87 @@
+what is power bi?
+=================
+bi - business intelligence 
+
+allows you to connect to various data source (excel,web,database,notepad,csv) visualize the data in reports and dashboards,
+
+power bi 3 main elements:
+==========================
+
+	1. power bi desktop
+	-free desktop appliation for building and designing reports
+
+	2. power bi service
+	-the online publishing service for viewing and sharing reports and dashborads.
+	
+	3. power bi mobile apps
+	- for viewing reports and dashboards on the go.
+
+what is power bi used for ?
+
+	power bi used in different ways depending on the role of the individual, from developers, analyst, managers ,directors to everyone.
+
+
+
+componets of powerbi desktop:
+=============================
+
+1) ribbon
+
+	the top ribbon contains most of the controls and options needed 	for building the report.
+
+2) views (4 types)
+	i) report view
+	ii) table view
+	iii) model view 
+	iv) DAX view 
+3) canvas
+	this is main design area where visualizations and other elements are added.	
+
+4) page selector:
+	for navigation ot other pages in the report.
+
+5) filters:
+	fields can be added here to filter the data.
+
+6) visualizations:
+	this contains the list of available visualizations or charts.
+
+	3 types: 1.build visual, 2. format visual 3.analysis visuals
+
+7) Fields or data:
+	this section contains the tables and fields that are available in the data model.
+
+
+importing and transforming data in power bi desktop
+===================================================
+
+i) data soruce and connections:
+
+	home tab -->get data -->Excel
+
+ii) importing data:
+	navigator:
+	load (data no problem) , transformdata(any changes or cleaning)
+
+iii) power query editor (only transform data)
+	
+	4 main parts:
+		- ribbon
+		- queries
+		- data view
+		- transformation steps
+	purpose of power bi query editor:
+		- removing rows and/or columns
+		- changing data types
+		- combine data with merge and append
+		- pivot and unpivot
+		- adding a conditional column
+
+	
+
+
+
+
+	
+
+	
