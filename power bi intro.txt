@@ -2,7 +2,8 @@ what is power bi?
 =================
 bi - business intelligence 
 
-allows you to connect to various data source (excel,web,database,notepad,csv) visualize the data in reports and dashboards,
+allows you to connect to various data source (excel,web,database,notepad,csv) 
+visualize the data in reports and dashboards,
 
 power bi 3 main elements:
 ==========================
