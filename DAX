@@ -14,10 +14,23 @@ we can add extra expression
 boolean work / date :
 1) maxadate = maxa(orders data [ship date])
 -------------------------------
-
+min
+minx
+mina
+------------------------------
 count
 counta
+countx
 countax
 distinctcount
-blankcount
+distinctnocount
+countblank
+countrows
+-----------------------------------
+using if find bounus %
+create new column and write this code
+bonus % = if (sheetname['columnnmae'] >=25000,"10%","20%")
+-----------------------------------
+salary after bouns = if (.....)
+
 
