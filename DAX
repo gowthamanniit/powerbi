@@ -1,0 +1,18 @@
+issuedyes=calculate(countrows...
+totalsales = sum(Sales[SalesAmount])
+totalemployee = count(sheetname or tablename [fieldname or column name])
+isboolean=if('orders data'[segment]="corporate",TRUE(),FALSE())
+-------------------------------------
+max=max(sheetname[fieldname])
+ex:
+maxsales=max(order[total sales])
+--------------------
+we can add extra expression
+1) maxx=maxx(tablename,columname1 + column2)
+2) maxx=maxx(filter(tablename,tablename[colname]="furniture"),columnname)
+------------------------
+boolean work / date :
+1) maxadate = maxa(orders data [ship date])
+
+-------------------------------
+
