@@ -13,6 +13,11 @@ we can add extra expression
 ------------------------
 boolean work / date :
 1) maxadate = maxa(orders data [ship date])
-
 -------------------------------
+
+count
+counta
+countax
+distinctcount
+blankcount
 
