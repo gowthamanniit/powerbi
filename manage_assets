@@ -1,0 +1,8 @@
+In Power BI, "manage assets" refers to the process of organizing, securing, and optimizing BI content—such as reports, dashboards, datasets, and dataflows—throughout their lifecycle to ensure data accuracy and user trust. It involves utilizing features like lineage view, endorsement (promotion/certification), and workspace management to maintain high-quality data and analytics. 
+
+Key Aspects of Managing Assets in Power BI:
+Data Lineage and Impact Analysis: Using the Lineage View to trace the origin of data, see dependencies between reports and datasets, and analyze the impact of changes.
+Endorsement and Certification: Promoting datasets or reports as "Promoted" or "Certified" to signal reliability, making it easier for users to find trusted data.
+Lifecycle Management: Managing the development, test, and production stages of reports and datasets, often using workspaces for organized deployment.
+Permissions and Security: Controlling access to workspaces and reports to ensure only authorized users can view or edit sensitive data.
+Performance Optimization: Monitoring the usage and performance of assets to optimize or remove unused or inefficient reports and data models.
