@@ -19,7 +19,8 @@ power bi 3 main elements:
 
 what is power bi used for ?
 
-	power bi used in different ways depending on the role of the individual, from developers, analyst, managers ,directors to everyone.
+	power bi used in different ways depending on the role of the individual, from 
+developers, analyst, managers ,directors to everyone.
 
 
 
