@@ -1,0 +1,9 @@
+expands table creating new column
+permanent storage
+
+right click on table --> new column 
+ex:
+citystateColumn = Table2[City] &"---" & Table2[State]
+
+
+
