@@ -9,3 +9,6 @@ variable = sum(tablename[columnname])
 ex:
 totalsalaes = sum(products[sales])
 
+ex:
+totalprofit = sum([salesamount]) -sum([costamount])
+
