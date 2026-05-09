@@ -1,0 +1,11 @@
+summarize data into a single value.
+calculated at runtime
+temporay storage
+
+ex:
+table right click--> new measure 
+
+variable = sum(tablename[columnname])
+ex:
+totalsalaes = sum(products[sales])
+
