@@ -5,6 +5,10 @@ isboolean=if('orders data'[segment]="corporate",TRUE(),FALSE())
 
 DIS_PERCENT = IF(financials[Discounts] <>0, (financials[Gross Sales]/financials[Discounts])/100,0)
 canadags = CALCULATE(sum(financials[Gross Sales]),financials[Country]="canada")
+
+percentage3 = round(([below30]/count(Table2[Student Name]) *100 ),3) & " % "
+
+
 -------------------------------------
 max=max(sheetname[fieldname])
 ex:
