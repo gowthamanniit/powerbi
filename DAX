@@ -2,6 +2,9 @@ certificateyes = CALCULATE(COUNTROWS('2021 to 2023'),'2021 to 2023'[Issued Certi
 totalsales = sum(Sales[SalesAmount])
 totalemployee = count(sheetname or tablename [fieldname or column name])
 isboolean=if('orders data'[segment]="corporate",TRUE(),FALSE())
+
+DIS_PERCENT = IF(financials[Discounts] <>0, (financials[Gross Sales]/financials[Discounts])/100,0)
+canadags = CALCULATE(sum(financials[Gross Sales]),financials[Country]="canada")
 -------------------------------------
 max=max(sheetname[fieldname])
 ex:
