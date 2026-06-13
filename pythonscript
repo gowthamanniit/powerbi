@@ -42,3 +42,25 @@ plt.pie(data.values(),colors=["red","green","blue","yellow","pink"],labels=keyva
 plt.title("CIty wise Sales report")
 plt.show()
 
+
+
+
+
+import matplotlib.pyplot as plt
+def assigntext():
+    for i in xaxisdata:
+        plt.text(i, 2,yaxisdata[i-1],color="white",fontsize=20,weight="bold")        
+xaxisdata=[1,2,3,4,5,6,7,8,9,10,11,12,13]
+yaxisdata=[10,15,20,20,26,48,67,67,89,90,99,110,125]
+plt.grid(True)
+plt.xlabel("OVERS")
+plt.ylabel("RUNS")
+plt.title("Line Chart Demo")
+plt.axis([-1,max(xaxisdata)+1,1,max(yaxisdata)+10])
+plt.plot(xaxisdata,yaxisdata,"b^",label="INDIA")
+plt.plot(xaxisdata,yaxisdata,color="red")
+plt.bar(xaxisdata,yaxisdata)
+assigntext()
+plt.legend()
+plt.savefig("d:/student/nisha.png")
+plt.show()
