@@ -30,3 +30,15 @@ plt.title("CIty wise Sales report")
 #plt.ylabel("sales")
 plt.show()
 
+
+import matplotlib.pyplot as plt
+import numpy as np
+data={"chennai":90000,"covai":80000,"madurai":75000,"salem":86000,"ooty":10000}
+keyvalue=[]
+for v in data.keys():
+    keyvalue.append(str(v)+"   "+str(data[v]))
+
+plt.pie(data.values(),colors=["red","green","blue","yellow","pink"],labels=keyvalue,startangle=90,autopct="%1.1f%%",explode=[0,0.3,0,0,0])
+plt.title("CIty wise Sales report")
+plt.show()
+
