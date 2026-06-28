@@ -1,9 +1,8 @@
 mysql: data:
 
-rno	sname	course  gender doj  city  totalfees paid   balance  completion   certificateissued
-
-
- 
+rno	sname	course  gender doj  city  totalfees paid   balance  
+     completion   certificateissued  remarks (break)
+   
 
 minimun 25 records
 
@@ -18,5 +17,6 @@ reports:
 6) gauage --------> certificate issued list/not issued list
 7) donut ---------> course wise collection
 8) column bar chart---> pending fees list (balance fees list)
-
+9) discontinue students list --->display students name list
+                      using table or matrix visuals 
 
