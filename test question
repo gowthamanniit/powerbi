@@ -13,10 +13,10 @@ reports:
 2) bar chart ----> city wise students studying
 3) pie chart -----> month wise joining students
 4) pie chart -----> male/female count
-5) gauage --------> course completion list/incompletion list
-6) gauage --------> certificate issued list/not issued list
+5) gauage --------> course completion count/incompletion count
+6) gauage --------> certificate issued count/not issued count
 7) donut ---------> course wise collection
 8) column bar chart---> pending fees list (balance fees list)
-9) discontinue students list --->display students name list
-                      using table or matrix visuals 
-
+9) table or matrix --->display discontinue students name list and count                 
+10) gauge ----------> overall collection percentage 
+                    (ex: sum of paid fees/ total fees*100 ex:75.23%)
