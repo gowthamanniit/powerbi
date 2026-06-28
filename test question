@@ -1,7 +1,17 @@
 mysql: data:
 
-rno	sname	course  gender doj  city  totalfees paid   balance  
-     completion   certificateissued  remarks (break)
+1) rno	   --> int
+2) sname	   --> varchar(25)
+3) course    --> varchar(20)
+4) gender    --> varchar(6) 
+5) doj       --> datetime
+6) city      --> varchar(20)
+7) totalfees --> int
+8) paid      --> int
+9) balance   --> int
+10) completion --> varchar(3)  
+11) certificateissued  --> varchar(3)
+12) remarks --> varchar(10)
    
 
 minimun 25 records
